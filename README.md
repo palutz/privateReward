@@ -30,3 +30,7 @@ A voting system
 ## LEO REWARD
 
 Simple Token 
+
+## TODO
+
+An overall system to orchestrate the review and the reward systems
