@@ -1,4 +1,6 @@
-# privateReward
+# Private Reward
+
+A privacy protecting system to allow all the contributors to freely support the projects they want, regardless of companies they work for, place where they live, ...
 
 
 ```mermaid
@@ -23,6 +25,14 @@ stateDiagram
     Approved --> Merged
 ```
 
+## Create Ticket 
+```
+Ticket {
+    Id : (ZKP?) Id of the User,
+    MergeReq : URL with the hash of the Merge Reqeust,
+    Wallet : wallet address for the reward
+}
+```
 
 ## LEO REVIEW
 
