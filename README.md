@@ -20,6 +20,7 @@ stateDiagram
       Approved --> Reward
       Reward --> User1Wallet
     }
+    Approved --> Merged
 ```
 
 
