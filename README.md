@@ -4,12 +4,29 @@
 ```mermaid
 stateDiagram
     direction LR
-    [*] --> A
-    A --> B
-    B --> C
-    state B {
-      direction LR
-      a --> b
+    [*] --> User1
+    User1 --> MergeRequest
+    MergeRequest --> CreateTicket
+    state Leo_Review {
+      CreateTicket --> Vote
+      direction RL
+      Rev1 --> Vote
+      Rev2 --> Vote
+      Revn --> Vote
     }
-    B --> D
+    Vote --> Approved
+    Vote --> Rejected
+    state Leo_Reward {
+      Approved --> Reward
+      Reward --> User1Wallet
+    }
 ```
+
+
+## LEO REVIEW
+
+A voting system
+
+## LEO REWARD
+
+Simple Token 
